@@ -1,3 +1,66 @@
+body, html {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dadfea;
+}
 
+.container {
+  height: 600px;
+  width: 1000px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.container .title {
+  width: 50%;
+}
+.container .title h1 {
+  text-align: center;
+}
+.container .projectbox {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.container .projectbox h4 {
+  text-decoration: underline;
+  text-align: center;
+}
+.container .projectbox h6 {
+  font-size: 18px;
+  text-align: center;
+  margin: 0;
+}
+.container .projectbox a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .projectbox .burgerbox {
+  width: 80%;
+  background-color: #99AFCC;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .projectbox .todobox {
+  width: 80%;
+  background-color: #99AFCC;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .links {
+  margin: 5px;
+}
 
 /*# sourceMappingURL=style.css.map */

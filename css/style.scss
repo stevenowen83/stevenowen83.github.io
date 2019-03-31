@@ -1,0 +1,73 @@
+body, html{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dadfea;
+}
+
+.container{
+  height: 600px;
+  width: 1000px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+
+  .title{
+    width: 50%;
+
+    h1{
+      text-align: center;
+    }
+  }
+
+  .projectbox{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+
+    h4{
+      text-decoration: underline;
+      text-align: center;
+    }
+
+    h6{
+      font-size: 18px;
+      text-align: center;
+      margin: 0;
+    }
+
+    a{
+      color: #000000;
+      text-decoration: none;
+    }
+
+    .burgerbox{
+      width: 80%;
+      background-color: #99AFCC;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    .todobox{
+      width: 80%;
+      background-color: #99AFCC;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+
+  .links{
+    margin: 5px;
+  }
+}
