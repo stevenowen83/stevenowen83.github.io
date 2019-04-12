@@ -59,6 +59,15 @@ body, html {
   align-items: center;
   flex-direction: column;
 }
+.container .projectbox .golfscorecard {
+  width: 80%;
+  background-color: #99AFCC;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
 .container .links {
   margin: 5px;
 }
