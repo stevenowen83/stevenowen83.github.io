@@ -19,6 +19,7 @@ body, html {
 .container .title {
   width: 50%;
   position: relative;
+  visibility: none;
 }
 .container .title h1 {
   position: absolute;
@@ -66,9 +67,9 @@ body, html {
   background-color: #99AFCC;
   border-radius: 5px;
   display: flex;
-  justify-content: center;
+  justify-content: fle;
   align-items: center;
-  flex-direction: column;
+  flex-direction: r;
 }
 .container .projectbox .todobox {
   width: 80%;
@@ -80,6 +81,15 @@ body, html {
   flex-direction: column;
 }
 .container .projectbox .golfscorecard {
+  width: 80%;
+  background-color: #99AFCC;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container .projectbox .ecommerce {
   width: 80%;
   background-color: #99AFCC;
   border-radius: 5px;
