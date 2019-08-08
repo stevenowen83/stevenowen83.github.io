@@ -56,29 +56,20 @@ body, html{
     h4{
       text-decoration: underline;
       text-align: center;
+      margin-top: 10px;
     }
 
     h6{
       font-size: 18px;
       text-align: center;
-      margin: 0;
+      margin-bottom: 10px;
+      margin-top: 15px;
     }
 
     a{
       color: #000000;
-      text-decoration: none;
     }
 
-    .burgerbox{
-      width: 80%;
-      background-color: #99AFCC;
-      border-radius: 5px;
-      display: flex;
-      justify-content: fle;
-      align-items: center;
-      flex-direction: r;
-
-    }
 
     .todobox{
       width: 80%;
@@ -99,6 +90,7 @@ body, html{
       align-items: center;
       flex-direction: column;
     }
+
     .ecommerce{
       width: 80%;
       background-color: #99AFCC;
@@ -111,8 +103,12 @@ body, html{
   }
 
   .links{
-    margin: 5px;
+    margin-bottom: 10px;
   }
+}
+
+p {
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 768px) {

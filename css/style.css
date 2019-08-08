@@ -52,24 +52,16 @@ body, html {
 .container .projectbox h4 {
   text-decoration: underline;
   text-align: center;
+  margin-top: 10px;
 }
 .container .projectbox h6 {
   font-size: 18px;
   text-align: center;
-  margin: 0;
+  margin-bottom: 10px;
+  margin-top: 15px;
 }
 .container .projectbox a {
   color: #000000;
-  text-decoration: none;
-}
-.container .projectbox .burgerbox {
-  width: 80%;
-  background-color: #99AFCC;
-  border-radius: 5px;
-  display: flex;
-  justify-content: fle;
-  align-items: center;
-  flex-direction: r;
 }
 .container .projectbox .todobox {
   width: 80%;
@@ -99,7 +91,11 @@ body, html {
   flex-direction: column;
 }
 .container .links {
-  margin: 5px;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
 }
 
 @media only screen and (max-width: 768px) {
