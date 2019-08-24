@@ -57,13 +57,14 @@ body, html{
       text-decoration: underline;
       text-align: center;
       margin-top: 10px;
+      margin-bottom: 0px;
     }
 
     h6{
       font-size: 18px;
       text-align: center;
-      margin-bottom: 10px;
-      margin-top: 15px;
+      margin-bottom: 0px;
+      margin-top: 5px;
     }
 
     a{
@@ -100,15 +101,25 @@ body, html{
       align-items: center;
       flex-direction: column;
     }
+
+    .heroku{
+      width: 80%;
+      background-color: #99AFCC;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
   }
 
   .links{
-    margin-bottom: 10px;
+    margin-bottom: 0px;
   }
 }
 
 p {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 @media only screen and (max-width: 768px) {
